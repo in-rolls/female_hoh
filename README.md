@@ -1,8 +1,8 @@
-## Female HoH
+## Missing Female HoH
 
-We use the [SECC data](https://github.com/in-rolls/secc) to estimate what proportion of households have a female head of household and how the proportion of female hoh varies by last name (see [here](https://github.com/appeler/outkast) for how we deduce last names) and by SC/ST/Other. We also estimate the average age of female and male hoh. We find that just X% of households have a female HoH. The proportion varies widely across last names, with the 10th percentile being Y% and the 90th percentile being Z%. The average age of female HoH is K years vs. L years for male HoH.
+We use the [SECC 2011 data](https://github.com/in-rolls/secc) from 14 states to estimate the percentage of households that have a female Head of Household (HoH), the variation in percentage of female HoH by last name (see [here](https://github.com/appeler/outkast) for how we deduce last names; we limit inference of female HoH by last name to last names shared by at least 1000 households) and by SC/ST/Other. We also estimate the average age of female and male HoH.
 
-For estimating the aggregate ratio and group by means for SC/ST/Other, we use the entire dataset. For last names, we use the criteria outlined in https://github.com/appeler/outkast to limit the dataset. 
+About 11.7% of the households have a female HoH. Expectedly, the age of female HoH (~ 54.1 years) is generally higher than a male HoH (~ 47.3 years). The percentage of female HoH doesn't vary much by SC/ST/Other but varies widely across last names, with the 10th percentile being 2% and the 90th percentile being 17.6%.
 
 ### Analysis
 
